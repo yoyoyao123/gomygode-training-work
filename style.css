@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.logo-2 {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.container__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.item__link {
+    padding: 5px 0;
+}
+
+.item__link a {
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+.img_container{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    margin-bottom:100px ;
+    display: flex;
+}
+.image_boxe{
+    width: 50%;
+    height: 100%; 
+}
+.img1{
+    width: 120px;
+    border-radius: 16px;
+    margin-top: 20px;
+
+    
+}
+.img_0{
+    width: 500px;
+    border-radius: 20px;
+    
+    
+}
+.description{
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.description h4{
+    color: rgb(224, 212, 212);
+}
+
+span {
+    color: orangered;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(226, 158, 133);
+}
+
+.btn--box{
+    display: flex;
+    margin-top: 50px;
+}
+.left--btn{
+    display: flex;
+    padding: 8px 16px;
+    border: solid 1px;
+    border-radius: 8px;
+    margin-right: 50px;
+    border: none;
+    width: 135px;
+    font-weight: bold;
+    background-color: rgb(224, 212, 212);
+}
+
+.left--btn button {
+    border: none;
+    color: orangered;
+    background-color: rgb(224, 212, 212);
+}
+
+.quantity {
+    width: 70px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+.right--btn{
+    background-color: orangered;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 200px;
+    text-align: center;
+}
+
+.right--btn button {
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+
+.right--btn button svg {
+    margin-right: 5px;
+}
+h3{
+    color: orangered;
+    padding-bottom: 30px;
+}
+h4{
+    text-decoration: line-through;
+    
+}
